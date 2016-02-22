@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2712F8D1C7654AD0003B6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2712F8C1C7654AD0003B6BA /* AppDelegate.swift */; };
+		E2712F8F1C7654AD0003B6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2712F8E1C7654AD0003B6BA /* Assets.xcassets */; };
+		E2712F921C7654AD0003B6BA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2712F901C7654AD0003B6BA /* MainMenu.xib */; };
+		E2712F9E1C7654C00003B6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2712F9D1C7654C00003B6BA /* AppDelegate.swift */; };
+		E2712FA01C7654C00003B6BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2712F9F1C7654C00003B6BA /* ViewController.swift */; };
+		E2712FA31C7654C00003B6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2712FA11C7654C00003B6BA /* Main.storyboard */; };
+		E2712FA51C7654C00003B6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2712FA41C7654C00003B6BA /* Assets.xcassets */; };
+		E2712FAB1C7658970003B6BA /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2712FAA1C7658970003B6BA /* MainWindow.swift */; };
+		E289F6C91C7B812300B1E765 /* ReusableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E289F6C81C7B812300B1E765 /* ReusableObjects.swift */; };
+		E289F6CA1C7B812300B1E765 /* ReusableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E289F6C81C7B812300B1E765 /* ReusableObjects.swift */; };
+		E289F6CB1C7B812300B1E765 /* ReusableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E289F6C81C7B812300B1E765 /* ReusableObjects.swift */; };
+		E289F6D31C7B920F00B1E765 /* ReusableObjects_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E289F6D21C7B920F00B1E765 /* ReusableObjects_iOSTests.swift */; };
+		E291593E1C7642BB00852C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291593D1C7642BB00852C2B /* AppDelegate.swift */; };
+		E29159401C7642BB00852C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291593F1C7642BB00852C2B /* ViewController.swift */; };
+		E29159431C7642BB00852C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29159411C7642BB00852C2B /* Main.storyboard */; };
+		E29159451C7642BB00852C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29159441C7642BB00852C2B /* Assets.xcassets */; };
+		E29159481C7642BB00852C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29159461C7642BB00852C2B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E289F6D51C7B921000B1E765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29159321C7642BB00852C2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29159391C7642BB00852C2B;
+			remoteInfo = "ReusableFormatter Demo iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2712F8A1C7654AD0003B6BA /* ReusableObjects Demo OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReusableObjects Demo OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2712F8C1C7654AD0003B6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2712F8E1C7654AD0003B6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2712F911C7654AD0003B6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E2712F931C7654AD0003B6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2712F9B1C7654C00003B6BA /* ReusableObjects Demo tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReusableObjects Demo tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2712F9D1C7654C00003B6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2712F9F1C7654C00003B6BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2712FA21C7654C00003B6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2712FA41C7654C00003B6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2712FA61C7654C00003B6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2712FAA1C7658970003B6BA /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		E289F6C81C7B812300B1E765 /* ReusableObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableObjects.swift; sourceTree = "<group>"; };
+		E289F6D01C7B920F00B1E765 /* ReusableObjects iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReusableObjects iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E289F6D21C7B920F00B1E765 /* ReusableObjects_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableObjects_iOSTests.swift; sourceTree = "<group>"; };
+		E289F6D41C7B921000B1E765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E291593A1C7642BB00852C2B /* ReusableObjects Demo iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReusableObjects Demo iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E291593D1C7642BB00852C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E291593F1C7642BB00852C2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E29159421C7642BB00852C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E29159441C7642BB00852C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E29159471C7642BB00852C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E29159491C7642BB00852C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2712F871C7654AD0003B6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2712F981C7654C00003B6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E289F6CD1C7B920F00B1E765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29159371C7642BB00852C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2712F831C76434F0003B6BA /* ReusableObject */ = {
+			isa = PBXGroup;
+			children = (
+				E289F6C81C7B812300B1E765 /* ReusableObjects.swift */,
+			);
+			name = ReusableObject;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		E2712F8B1C7654AD0003B6BA /* ReusableObjects Demo OSX */ = {
+			isa = PBXGroup;
+			children = (
+				E2712F8C1C7654AD0003B6BA /* AppDelegate.swift */,
+				E2712F8E1C7654AD0003B6BA /* Assets.xcassets */,
+				E2712FAA1C7658970003B6BA /* MainWindow.swift */,
+				E2712F901C7654AD0003B6BA /* MainMenu.xib */,
+				E2712F931C7654AD0003B6BA /* Info.plist */,
+			);
+			path = "ReusableObjects Demo OSX";
+			sourceTree = "<group>";
+		};
+		E2712F9C1C7654C00003B6BA /* ReusableObjects Demo tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2712F9D1C7654C00003B6BA /* AppDelegate.swift */,
+				E2712F9F1C7654C00003B6BA /* ViewController.swift */,
+				E2712FA11C7654C00003B6BA /* Main.storyboard */,
+				E2712FA41C7654C00003B6BA /* Assets.xcassets */,
+				E2712FA61C7654C00003B6BA /* Info.plist */,
+			);
+			path = "ReusableObjects Demo tvOS";
+			sourceTree = "<group>";
+		};
+		E289F6D11C7B920F00B1E765 /* ReusableObjects iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E289F6D21C7B920F00B1E765 /* ReusableObjects_iOSTests.swift */,
+				E289F6D41C7B921000B1E765 /* Info.plist */,
+			);
+			path = "ReusableObjects iOSTests";
+			sourceTree = "<group>";
+		};
+		E29159311C7642BB00852C2B = {
+			isa = PBXGroup;
+			children = (
+				E2712F831C76434F0003B6BA /* ReusableObject */,
+				E291593C1C7642BB00852C2B /* ReusableObjects Demo iOS */,
+				E2712F8B1C7654AD0003B6BA /* ReusableObjects Demo OSX */,
+				E2712F9C1C7654C00003B6BA /* ReusableObjects Demo tvOS */,
+				E289F6D11C7B920F00B1E765 /* ReusableObjects iOSTests */,
+				E291593B1C7642BB00852C2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E291593B1C7642BB00852C2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E291593A1C7642BB00852C2B /* ReusableObjects Demo iOS.app */,
+				E2712F8A1C7654AD0003B6BA /* ReusableObjects Demo OSX.app */,
+				E2712F9B1C7654C00003B6BA /* ReusableObjects Demo tvOS.app */,
+				E289F6D01C7B920F00B1E765 /* ReusableObjects iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E291593C1C7642BB00852C2B /* ReusableObjects Demo iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E291593D1C7642BB00852C2B /* AppDelegate.swift */,
+				E291593F1C7642BB00852C2B /* ViewController.swift */,
+				E29159411C7642BB00852C2B /* Main.storyboard */,
+				E29159441C7642BB00852C2B /* Assets.xcassets */,
+				E29159461C7642BB00852C2B /* LaunchScreen.storyboard */,
+				E29159491C7642BB00852C2B /* Info.plist */,
+			);
+			path = "ReusableObjects Demo iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2712F891C7654AD0003B6BA /* ReusableObjects Demo OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2712F941C7654AD0003B6BA /* Build configuration list for PBXNativeTarget "ReusableObjects Demo OSX" */;
+			buildPhases = (
+				E2712F861C7654AD0003B6BA /* Sources */,
+				E2712F871C7654AD0003B6BA /* Frameworks */,
+				E2712F881C7654AD0003B6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReusableObjects Demo OSX";
+			productName = "VersionTracking Demo OSX";
+			productReference = E2712F8A1C7654AD0003B6BA /* ReusableObjects Demo OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2712F9A1C7654C00003B6BA /* ReusableObjects Demo tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2712FA71C7654C00003B6BA /* Build configuration list for PBXNativeTarget "ReusableObjects Demo tvOS" */;
+			buildPhases = (
+				E2712F971C7654C00003B6BA /* Sources */,
+				E2712F981C7654C00003B6BA /* Frameworks */,
+				E2712F991C7654C00003B6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReusableObjects Demo tvOS";
+			productName = "VersionTracking Demo tvOS";
+			productReference = E2712F9B1C7654C00003B6BA /* ReusableObjects Demo tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E289F6CF1C7B920F00B1E765 /* ReusableObjects iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E289F6D71C7B921000B1E765 /* Build configuration list for PBXNativeTarget "ReusableObjects iOSTests" */;
+			buildPhases = (
+				E289F6CC1C7B920F00B1E765 /* Sources */,
+				E289F6CD1C7B920F00B1E765 /* Frameworks */,
+				E289F6CE1C7B920F00B1E765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E289F6D61C7B921000B1E765 /* PBXTargetDependency */,
+			);
+			name = "ReusableObjects iOSTests";
+			productName = "ReusableFormatter iOSTests";
+			productReference = E289F6D01C7B920F00B1E765 /* ReusableObjects iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E29159391C7642BB00852C2B /* ReusableObjects Demo iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29159571C7642BB00852C2B /* Build configuration list for PBXNativeTarget "ReusableObjects Demo iOS" */;
+			buildPhases = (
+				E29159361C7642BB00852C2B /* Sources */,
+				E29159371C7642BB00852C2B /* Frameworks */,
+				E29159381C7642BB00852C2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReusableObjects Demo iOS";
+			productName = VersionTracking;
+			productReference = E291593A1C7642BB00852C2B /* ReusableObjects Demo iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E29159321C7642BB00852C2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tom Baranes";
+				TargetAttributes = {
+					E2712F891C7654AD0003B6BA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E2712F9A1C7654C00003B6BA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E289F6CF1C7B920F00B1E765 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E29159391C7642BB00852C2B;
+					};
+					E29159391C7642BB00852C2B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E29159351C7642BB00852C2B /* Build configuration list for PBXProject "ReusableObjectDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E29159311C7642BB00852C2B;
+			productRefGroup = E291593B1C7642BB00852C2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E29159391C7642BB00852C2B /* ReusableObjects Demo iOS */,
+				E2712F891C7654AD0003B6BA /* ReusableObjects Demo OSX */,
+				E2712F9A1C7654C00003B6BA /* ReusableObjects Demo tvOS */,
+				E289F6CF1C7B920F00B1E765 /* ReusableObjects iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2712F881C7654AD0003B6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2712F8F1C7654AD0003B6BA /* Assets.xcassets in Resources */,
+				E2712F921C7654AD0003B6BA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2712F991C7654C00003B6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2712FA51C7654C00003B6BA /* Assets.xcassets in Resources */,
+				E2712FA31C7654C00003B6BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E289F6CE1C7B920F00B1E765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29159381C7642BB00852C2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29159481C7642BB00852C2B /* LaunchScreen.storyboard in Resources */,
+				E29159451C7642BB00852C2B /* Assets.xcassets in Resources */,
+				E29159431C7642BB00852C2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2712F861C7654AD0003B6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2712FAB1C7658970003B6BA /* MainWindow.swift in Sources */,
+				E289F6CA1C7B812300B1E765 /* ReusableObjects.swift in Sources */,
+				E2712F8D1C7654AD0003B6BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2712F971C7654C00003B6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2712FA01C7654C00003B6BA /* ViewController.swift in Sources */,
+				E289F6CB1C7B812300B1E765 /* ReusableObjects.swift in Sources */,
+				E2712F9E1C7654C00003B6BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E289F6CC1C7B920F00B1E765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E289F6D31C7B920F00B1E765 /* ReusableObjects_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29159361C7642BB00852C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29159401C7642BB00852C2B /* ViewController.swift in Sources */,
+				E289F6C91C7B812300B1E765 /* ReusableObjects.swift in Sources */,
+				E291593E1C7642BB00852C2B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E289F6D61C7B921000B1E765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E29159391C7642BB00852C2B /* ReusableObjects Demo iOS */;
+			targetProxy = E289F6D51C7B921000B1E765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2712F901C7654AD0003B6BA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2712F911C7654AD0003B6BA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E2712FA11C7654C00003B6BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2712FA21C7654C00003B6BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E29159411C7642BB00852C2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29159421C7642BB00852C2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E29159461C7642BB00852C2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29159471C7642BB00852C2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2712F951C7654AD0003B6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ReusableObjects Demo OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.ReusableObject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E2712F961C7654AD0003B6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ReusableObjects Demo OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.ReusableObject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2712FA81C7654C00003B6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/ReusableObjects Demo tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.ReusableObject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		E2712FA91C7654C00003B6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/ReusableObjects Demo tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.ReusableObject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		E289F6D81C7B921000B1E765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ReusableObjects iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbaranes.ReusableObjects-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReusableObjects Demo iOS.app/ReusableObjects Demo iOS";
+			};
+			name = Debug;
+		};
+		E289F6D91C7B921000B1E765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ReusableObjects iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbaranes.ReusableObjects-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReusableObjects Demo iOS.app/ReusableObjects Demo iOS";
+			};
+			name = Release;
+		};
+		E29159551C7642BB00852C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E29159561C7642BB00852C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E29159581C7642BB00852C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/ReusableObjects Demo iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.ReusableObject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E29159591C7642BB00852C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/ReusableObjects Demo iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.ReusableObject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2712F941C7654AD0003B6BA /* Build configuration list for PBXNativeTarget "ReusableObjects Demo OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2712F951C7654AD0003B6BA /* Debug */,
+				E2712F961C7654AD0003B6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2712FA71C7654C00003B6BA /* Build configuration list for PBXNativeTarget "ReusableObjects Demo tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2712FA81C7654C00003B6BA /* Debug */,
+				E2712FA91C7654C00003B6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E289F6D71C7B921000B1E765 /* Build configuration list for PBXNativeTarget "ReusableObjects iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E289F6D81C7B921000B1E765 /* Debug */,
+				E289F6D91C7B921000B1E765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29159351C7642BB00852C2B /* Build configuration list for PBXProject "ReusableObjectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29159551C7642BB00852C2B /* Debug */,
+				E29159561C7642BB00852C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29159571C7642BB00852C2B /* Build configuration list for PBXNativeTarget "ReusableObjects Demo iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29159581C7642BB00852C2B /* Debug */,
+				E29159591C7642BB00852C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E29159321C7642BB00852C2B /* Project object */;
+}
