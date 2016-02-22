@@ -1,6 +1,6 @@
 # ReusableObjects
 
-[![Travis](https://img.shields.io/travis/tbaranes/ReusableObjects.svg)](https://travis-ci.org/recisio/ReusableObjects)
+[![Travis](https://img.shields.io/travis/tbaranes/ReusableObjects.svg)](https://travis-ci.org/tbaranes/ReusableObjects)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/v/ReusableObjects.svg?style=flat)](https://github.com/tbaranes/ReusableObjects)
 [![Platform](https://img.shields.io/cocoapods/p/ReusableObjects.svg?style=flat)](http://cocoadocs.org/docsets/ReusableObjects)
