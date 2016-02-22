@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 s.name            	= "ReusableObjects"
 s.version          	= "1.0"
-s.summary          	= "`ReusableObjects` is the easiest way to create an object once, and re-used it as much as possible. It's allow you to avoid several allocation / initialization of expensive objects such as `NSDateFormatter`, `NSNumberFormatter`... or any of your custom objects."
+s.summary          	= "`ReusableObjects` is the easiest way to create an object once, and re-used it as much as possible"
 s.description      	= "`ReusableObjects` is the easiest way to create an object once, and re-used it as much as possible. It's allow you to avoid several allocation / initialization of expensive objects such as `NSDateFormatter`, `NSNumberFormatter`... or any of your custom objects. Available for iOS, OS X, and tvOS."
 s.homepage         	= "https://github.com/tbaranes/ReusableObjects."
 s.license      		= { :type => "MIT", :file => "LICENSE" }
